@@ -1,5 +1,5 @@
 ```markdown
-# 📊 Text2SQL 自然语言查询助手
+# 📊 NL2SQL 自然语言查询助手
 
 基于大语言模型（LLM）的自然语言转 SQL 查询工具，支持通过中文问题自动生成 SQL 并执行，同时提供索引优化建议。帮助非技术用户零代码获取数据库分析结果，适用于数据科学、商业智能等场景。
 
@@ -25,7 +25,7 @@
 ## 📁 项目结构
 
 ```
-text2sql-assistant/
+NL2SQL/
 ├── ecommerce.db           # 生成的 SQLite 数据库（自动生成）
 ├── generate_data.py       # 模拟电商数据生成脚本
 ├── text2sql.py            # 核心模块：Schema 获取、LLM 调用、SQL 执行
@@ -40,8 +40,8 @@ text2sql-assistant/
 ### 1. 克隆仓库
 
 ```bash
-git clone https://github.com/your-username/text2sql-assistant.git
-cd text2sql-assistant
+git clone https://github.com/CCking2022/NL2SQL.git
+cd NL2SQL
 ```
 
 ### 2. 安装依赖
@@ -186,7 +186,3 @@ MIT License
 
 其余代码保持不变，无需 API Key 即可运行。
 ```
-
-**保存方法**：  
-- 全选上方代码块内容 → 复制 → 打开记事本（或 VS Code、Sublime Text 等）→ 粘贴 → 保存文件，文件名设置为 `README.md`（注意扩展名为 `.md`）。  
-- 或在你项目的根目录下直接创建该文件。
